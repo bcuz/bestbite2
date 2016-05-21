@@ -24,6 +24,7 @@ html, body {
 .nav-pills {
   float: right;
   width: 300px;
+  margin-top: 7px;
 }
 
 .nav-pills li {
