@@ -66,7 +66,7 @@ html, body {
   font-size: 30px;
 }
 
-.banner button {
+.banner button, .btn-default:focus {
   background-color: rgba(216,25,47,.5);
   color: white;
   border: none;
