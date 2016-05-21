@@ -124,6 +124,11 @@ h4 {
   text-align: right;
 }
 
+.footer .col-md-4 {
+  width: 33.33%;
+  float: left;
+}
+
 /* Media Queries */
 @media (max-width: 680px) {
   .header h1 {
