@@ -66,6 +66,12 @@ html, body {
   font-size: 30px;
 }
 
+.banner button {
+  background-color: rgba(216,25,47,.5);
+  color: white;
+  border: none;
+}
+
 /* Media Queries */
 @media (max-width: 680px) {
   .header h1 {
