@@ -80,6 +80,8 @@ html, body {
 
 .page-header h3 {
   font-size: 30px;
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 25px;
 }
 
 h4 {
