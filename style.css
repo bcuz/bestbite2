@@ -94,7 +94,7 @@ h4 {
 .page-header ul {
   list-style: none;
   padding-left: 0;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .page-header .row {
@@ -127,6 +127,10 @@ h4 {
 .footer .col-md-4 {
   width: 33.33%;
   float: left;
+}
+
+.footer .container {
+  padding-top: 40px;
 }
 
 /* Media Queries */
