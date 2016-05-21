@@ -78,6 +78,10 @@ html, body {
  text-align: center;
 }
 
+.page-header h3 {
+  font-size: 30px;
+}
+
 h4 {
   color: #D8192F;
 }
