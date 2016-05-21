@@ -23,11 +23,14 @@ html, body {
 
 .nav-pills {
   float: right;
+  width: 300px;
 }
 
 .nav-pills li {
   margin-right: 10px;
 }
+
+
 
 .nav-pills li.active a,
 .nav-pills li a:hover,
@@ -73,4 +76,5 @@ html, body {
   .nav-pills li:first-child a  {
     margin-left: 0;
   }
+
 }
