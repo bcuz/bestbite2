@@ -64,9 +64,11 @@ html, body {
 
 .banner h3 {
   font-size: 30px;
+  margin-top: 10px;
 }
 
 .banner button, .btn-default:focus {
+  margin-top: 10px;
   background-color: rgba(216,25,47,.5);
   color: white;
   border: none;
