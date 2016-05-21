@@ -84,6 +84,7 @@ h4 {
 
 .page-header ul {
   list-style: none;
+  padding-left: 0;
 }
 
 /* Media Queries */
