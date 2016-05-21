@@ -107,8 +107,21 @@ h4 {
   height: 150px;
 }
 
-.col-md-4 a {
+.footer {
   text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #D8192F;
+}
+.footer .col-md-4:first-child {
+  text-align: left;
+}
+
+
+.footer .col-md-4:last-child {
+  text-align: right;
 }
 
 /* Media Queries */
