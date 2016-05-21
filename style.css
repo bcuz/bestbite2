@@ -12,6 +12,10 @@ html, body {
 
 
 /* Header */
+.header {
+  padding: 20px 0;
+}
+
 .nav-pills li a {
   color: #d8192f;
   border: 1px solid #d8192f;
