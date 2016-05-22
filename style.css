@@ -171,3 +171,12 @@ h4 {
   }
 
 }
+
+
+@media screen and (max-width: 992px) {
+  /* remember to change max/min */
+
+  .jumbotron {
+    text-align: right;
+  }
+}
