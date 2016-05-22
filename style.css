@@ -49,6 +49,21 @@ html, body {
   background-size: cover;
 }
 
+.jumbotron .container {
+  position: relative;
+  top: 80px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 54px;
+  margin: 0;
+}
+
+/*.jumbotron :nth-of-type(2) {
+  color: green;
+}*/
+
 
 /* Banner */
 .banner, .supporting {
