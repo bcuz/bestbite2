@@ -137,12 +137,12 @@ h4 {
 .footer a {
   color: #D8192F;
 }
-.footer .col-md-4:first-child {
+.footer .col-md-4:first-of-type {
   text-align: left;
 }
 
 
-.footer .col-md-4:last-child {
+.footer .col-md-4:last-of-type {
   text-align: right;
 }
 
