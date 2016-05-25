@@ -49,6 +49,7 @@ body {
     height: 500px;
     background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
     background-size: cover;
+    text-align: right;
 }
 
 .jumbotron .container {
@@ -62,13 +63,13 @@ h2 {
     margin: 0;
 }
 
-.create {
+/*.create {
     margin-left: 10%;
 }
 
 .share {
     margin-left: 12%;
-}
+}*/
 
 
 /* Banner */
