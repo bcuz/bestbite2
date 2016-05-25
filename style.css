@@ -1,185 +1,187 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arvo', serif;
-  font-size: 16px;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
 }
 
 .container {
-  max-width: 940px;
-  margin: 0 auto;
+    max-width: 940px;
+    margin: 0 auto;
 }
 
 
 /* Header */
+
 .header {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
 .nav-pills li a {
-  color: #d8192f;
-  border: 1px solid #d8192f;
+    color: #d8192f;
+    border: 1px solid #d8192f;
 }
 
 .nav-pills {
-  float: right;
-  width: 300px;
-  margin-top: 7px;
+    float: right;
+    width: 300px;
+    margin-top: 7px;
 }
 
 .nav-pills li {
-  margin-right: 10px;
+    margin-right: 10px;
 }
-
-
 
 .nav-pills li.active a,
 .nav-pills li a:hover,
 .section .btn:hover {
-  background-color:rgba(216,25,47,1);
-  box-shadow:0 2px 4px rgba(0,0,0,.5);
-  color:#fff;
+    background-color: rgba(216, 25, 47, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    color: #fff;
 }
 
 
 /* Jumbotron */
+
 .jumbotron {
-  height: 500px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
-  background-size: cover;
+    height: 500px;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .jumbotron .container {
-  position: relative;
-  top: 80px;
+    position: relative;
+    top: 80px;
 }
 
 h2 {
-  color: #fff;
-  font-size: 56px;
-  margin: 0;
+    color: #fff;
+    font-size: 56px;
+    margin: 0;
 }
 
 .create {
-  margin-left: 10%;
+    margin-left: 10%;
 }
 
 .share {
-  margin-left: 12%;
+    margin-left: 12%;
 }
 
 
 /* Banner */
-.banner, .supporting {
-  text-align: center;
-  padding-top: 40px;
+
+.banner,
+.supporting {
+    text-align: center;
+    padding-top: 40px;
 }
 
 .banner {
-  background-color:#36343f;
-  height:180px;
-  color: #fff;
+    background-color: #36343f;
+    height: 180px;
+    color: #fff;
 }
 
 .banner h3 {
-  font-size: 30px;
-  margin-top: 10px;
+    font-size: 30px;
+    margin-top: 10px;
 }
 
-.banner button, .btn-default:focus {
-  margin-top: 10px;
-  background-color: rgba(216,25,47,.5);
-  color: white;
-  border: none;
+.banner button,
+.btn-default:focus {
+    margin-top: 10px;
+    background-color: rgba(216, 25, 47, .5);
+    color: white;
+    border: none;
 }
 
 .page-header {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .section {
- text-align: center;
+    text-align: center;
 }
 
 .section h3 {
-  font-size: 30px;
-  /*border-bottom: 1px solid #EEEEEE;*/
-  padding-bottom: 15px;
-  margin-top: 60px;
+    font-size: 30px;
+    /*border-bottom: 1px solid #EEEEEE;*/
+    padding-bottom: 15px;
+    margin-top: 60px;
 }
 
 h4 {
-  color: #D8192F;
-  font-size: 20px;
+    color: #D8192F;
+    font-size: 20px;
 }
 
 .section ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 20px 0;
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
 }
 
 .section .row {
-  margin-top: 40px;
-  margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .footer {
-  background-color: #eee;
-  height: 150px;
+    background-color: #eee;
+    height: 150px;
 }
 
 .footer {
-  text-align: center;
-  font-size: 14px;
+    text-align: center;
+    font-size: 14px;
 }
 
 .footer a {
-  color: #D8192F;
-}
-.footer .col-md-4:first-of-type {
-  text-align: left;
+    color: #D8192F;
 }
 
+.footer .col-md-4:first-of-type {
+    text-align: left;
+}
 
 .footer .col-md-4:last-of-type {
-  text-align: right;
+    text-align: right;
 }
 
 .footer .col-md-4 {
-  width: 33.33%;
-  float: left;
+    width: 33.33%;
+    float: left;
 }
 
 .footer .container {
-  padding-top: 40px;
+    padding-top: 40px;
 }
+
 
 /* Media Queries */
+
 @media (max-width: 680px) {
-  .header h1 {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .nav {
-    float: none;
-    margin: 0 auto;
-  }
-  .banner {
-    height: 220px;
-  }
-
-  .nav-pills li:first-child a  {
-    margin-left: 0;
-  }
-
+    .header h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .nav {
+        float: none;
+        margin: 0 auto;
+    }
+    .banner {
+        height: 220px;
+    }
+    .nav-pills li:first-child a {
+        margin-left: 0;
+    }
 }
 
-
 @media screen and (max-width: 992px) {
-  /* remember to change max/min */
-
-  .jumbotron {
-    text-align: right;
-  }
+    /* remember to change max/min */
+    .jumbotron {
+        text-align: right;
+    }
 }
