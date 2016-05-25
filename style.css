@@ -35,7 +35,7 @@ body {
 
 .nav-pills li.active a,
 .nav-pills li a:hover,
-.section .btn:hover {
+.banner .btn:hover {
     background-color: rgba(216, 25, 47, 1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
     color: #fff;
